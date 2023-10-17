@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="api_key"> dc30644e612d4933b537f2b2b4d0f955</string>
+
+    <string name="title_activity_my_google_map">MyGoogleMap</string>
+</resources>

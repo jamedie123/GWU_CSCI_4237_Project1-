@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_margin="6dp"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/BUTTON_1"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_2"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="entertainment"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_3"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="general"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_4"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="health"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_5"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="science"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_6"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="sports"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:id="@+id/BUTTON_7"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="technology"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/BUTTON_8"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Map"
+        android:textSize="12sp"
+        android:padding="6dp"
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="14dp"
+        app:cardElevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            app:defaultQueryHint="Search News ..."
+            app:iconifiedByDefault="false"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize">
+
+        </androidx.appcompat.widget.SearchView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_main"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
